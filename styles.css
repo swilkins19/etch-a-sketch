@@ -1,0 +1,20 @@
+.grid {
+    display: flex;
+    width: 960px;
+    height: 960px;
+    background-color: yellow;
+}
+
+.row {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+}
+
+.square {
+    flex: 1 1 100%;
+    background-color: orange;
+    border-width: 1px;
+    border-color: brown;
+    border-style: solid;
+}
