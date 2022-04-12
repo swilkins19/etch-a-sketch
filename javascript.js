@@ -6,10 +6,15 @@ function setUpGrid(rowSize) {
         grid.append(row);
         for(let i=0; i<rowSize; i++) {
             let square = document.createElement("div");
+            square.addEventListener('mouseover', hover);
             square.classList.add("square");
             row.append(square);
         }
     }
+}
+
+function hover() {
+    this.style.backgroundColor = 'blue';
 }
 
 setUpGrid(16);

@@ -3,12 +3,14 @@
     width: 960px;
     height: 960px;
     background-color: yellow;
+    gap: 2px;
 }
 
 .row {
     display: flex;
     flex: 1 1 100%;
     flex-direction: column;
+    gap: 2px;
 }
 
 .square {
